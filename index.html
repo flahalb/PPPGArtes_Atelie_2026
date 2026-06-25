@@ -19,21 +19,16 @@ trackingMethod: best;
 sourceType: webcam;
 debugUIEnabled: false;">
 
-<a-assets>
-    <a-asset-item
-        id="lamp"
-        src="assets/models/LamparinaIA-v1.glb">
-    </a-asset-item>
-</a-assets>
 
 <a-marker preset="hiro">
 
-    <a-entity
-        gltf-model="#lamp"
+    <a-box
         position="0 0.5 0"
-        rotation="-90 0 0"
-        scale="0.2 0.2 0.2">
-    </a-entity>
+        color="red"
+        depth="0.5"
+        height="0.5"
+        width="0.5">
+    </a-box>
 
 </a-marker>
 
