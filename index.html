@@ -21,16 +21,16 @@ debugUIEnabled: false;">
 
 <a-assets>
 <video
-        id="video"
-        src="lamparina3d.mp4"
-        preload="auto"
-        crossorigin="anonymous"
-        loop
-        muted
-        autoplay
-        playsinline
-        webkit-playsinline>
-    </video>
+id="video"
+src="lamparina3d.mp4"
+preload="auto"
+loop
+muted
+autoplay
+playsinline
+webkit-playsinline
+crossorigin="anonymous">
+</video>
 </a-assets>
 
 <a-marker
@@ -38,11 +38,11 @@ debugUIEnabled: false;">
     url="pattern-marcador2.patt">
 
 <a-video
-    src="#video"
-    width="1.12"
-    height="2"
-    position="0 1 -0.3"
-    rotation="-90 0 0">
+material="src:#video"
+width="1.12"
+height="2"
+position="0 1 -0.3"
+rotation="-90 0 0">
 </a-video>
 </a-marker>
 
